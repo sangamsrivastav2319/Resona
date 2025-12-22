@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resona - One Day. One Song</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <nav class="navbar">
+        <img class="logo" src="newlogo.png" alt="Resona Logo">
+        <span id="current-date"></span>
+        <img src="Iconlogonew.png" alt="home icon" class="home-icon">
+
+    </nav>
+   <header>
+    <h1>Resona</h1>
+    <h2>One day. One Song</h2>
+   </header>
+   
+    <main>
+    <h3>Today's Song</h3>
+
+    <input type="file" id="song-upload" accept="audio/*" />
+    <audio id="daily-audio" controls></audio>
+
+    <h4>Morning</h4>
+    <textarea id="morning" placeholder="Happy morning. How does today being?"></textarea>
+<h4>Throughout the day</h4>
+    <textarea id="day" placeholder="What interesting happening? Stay COOL"></textarea>
+    <h4>Night</h4>
+    <textarea id="night" placeholder="Reflect on the day"></textarea>
+    </main>
+<section class="history">
+  <h4>Your Days</h4>
+  <ul id="history-list"></ul>
+</section>
+
+   <footer>
+            <button id="save-btn" class="save-btn">Save Today</button>
+            <button id="reset-btn" class="reset-btn">Reset Day</button>
+
+        </footer>
+
+  <div class="pagesignature">
+    <p>SEIZE THE DAY - CARPE DIEM</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>    
